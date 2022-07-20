@@ -1,5 +1,6 @@
 #Week 1 Day 2 - SE116 Review Demo
 
+print("Hello World!")
 print("\n\n\tWelcome to the Room Safety Manager!\n\n")
 
 answer = input("\tWould you like to check some rooms? [y/n]: ").lower()
