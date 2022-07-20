@@ -1,5 +1,14 @@
 #Week 1 Day 2 - SE116 Review Demo
 
+#FUNCTIONS------------------------------------------------
+def capacity():
+
+    cap = int(input("\tEnter the room's Max Capacity: "))
+
+    return cap #REPLACES the function call line!
+
+#MAIN CODE------------------------------------------------
+
 print("Hello World!")
 print("\n\n\tWelcome to the Room Safety Manager!\n\n")
 
@@ -13,7 +22,7 @@ while answer != "y" and answer != "n": #user trap loop
 
 while answer == "y":
 
-    roomCapacity = int(input("\tEnter the room's Max Capacity: "))
+    roomCapacity = capacity()
 
     peopleAttending = int(input("\tEnter the number of meeting attendees for the room: "))
 
