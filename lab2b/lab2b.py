@@ -45,7 +45,10 @@ with open("C:/Users/KTRUCHON/Desktop/SE126_202240/lab2b/lab2b.csv") as csvfile:
             second_disc = "---"
 
         #what happens when there are two disks?
-
+        else: 
+            second_disc = rec[6]
+            os = rec[7]
+            year = rec[8]
 
         print("{0:8}   {1:8}   {2}     {3:3}   {4:6}     {5:9}     {6:6}   {7:2}   {8:4}".format(type_, manu, cpu, ram, first_disc, num_disc, second_disc, os, year))
 print("-------------------------------------------------------------------------------")
